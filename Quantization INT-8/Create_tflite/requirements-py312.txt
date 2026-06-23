@@ -1,0 +1,16 @@
+numpy==1.26.4
+
+# TFLite conversion/quantization
+tensorflow==2.16.1
+
+# ONNX tooling
+onnx==1.16.0
+onnxsim==0.4.36
+onnx2tf==1.28.8
+
+# onnx2tf dependency
+onnx-graphsurgeon==0.5.8
+
+# Image IO
+Pillow==10.4.0
+
