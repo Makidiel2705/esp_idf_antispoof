@@ -1,0 +1,25 @@
+## IDF Component Manager dependencies
+dependencies:
+  # Thư viện Arduino (Core)
+  espressif/arduino-esp32:
+    version: ">=3.1.0"
+  
+  # AI & Model (ESP-DL & TFLite)
+  espressif/esp-dl:
+    version: ">=3.1.0"
+  espressif/human_face_detect:
+    version: "^0.4.1"
+  espressif/human_face_recognition:
+    version: "^0.3.1"
+  espressif/esp-tflite-micro:
+    version: "^1.3.5"
+  
+  # Camera & FS
+  espressif/esp32-camera:
+    version: "^2.0.4"
+  joltwallet/littlefs:
+    version: "^1.20.4"
+    
+  # Phụ thuộc Hệ thống
+  idf:
+    version: ">=5.3.0"
