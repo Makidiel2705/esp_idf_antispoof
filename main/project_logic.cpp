@@ -189,8 +189,8 @@ struct TelegramTaskData {
 
 #define SMTP_HOST "smtp.gmail.com"
 #define SMTP_PORT 587
-#define AUTHOR_EMAIL "makidielclone1@gmail.com"
-#define AUTHOR_PASSWORD "hfwzgulgqsxvojzz"
+#define AUTHOR_EMAIL ""
+#define AUTHOR_PASSWORD ""
 #define RECIPIENT_EMAIL "tranchikien27052003@gmail.com"
 SMTPSession smtp;
 
