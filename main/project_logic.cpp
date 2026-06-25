@@ -170,8 +170,8 @@ static bool pending_entry_valid = false;
 static bool pending_exit_valid = false;
 
 // Telegram & Email Config
-String BOT_TOKEN = "8634797906:AAFBftXCfdkw_ukQbcPMqg0DrZpuMB3NpYI";
-String CHAT_ID = "6005354751";
+String BOT_TOKEN = "";
+String CHAT_ID = "";
 bool sendTelegramFlag = false;
 String telegramActor = "";
 String currentOTP = "";
