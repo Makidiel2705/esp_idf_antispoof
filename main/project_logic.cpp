@@ -187,11 +187,11 @@ struct TelegramTaskData {
   size_t jpg_len;
 };
 
-#define SMTP_HOST "smtp.gmail.com"
+#define SMTP_HOST ""
 #define SMTP_PORT 587
 #define AUTHOR_EMAIL ""
 #define AUTHOR_PASSWORD ""
-#define RECIPIENT_EMAIL "tranchikien27052003@gmail.com"
+#define RECIPIENT_EMAIL ""
 SMTPSession smtp;
 
 void sendOTPEmail(String otp) {
